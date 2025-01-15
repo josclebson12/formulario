@@ -3,13 +3,14 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
-        <title>example</title>
+        <title>Pontos turísticos</title>
         <style>
             body {
                 display: block;
                 align-items: center;
                 justify-items: center;
                 margin: 0%;
+                font-family: Arial, Helvetica, sans-serif;
             }
 
             .roda-pe {
@@ -22,14 +23,20 @@
                 text-align: center;
             }
 
-            ul {
-                right: 50%;
+            button {
+                background-color: blueviolet;
+                color: white;
+                border: none;
+                border-radius: 12px;
+                font-size: 15px;
+                width: 150px;
+                height: 35px;
             }
         </style>
     </head>
     <body>
         <header class="topo">
-            <h1>Principais pontos turísticos de Recifer</h1>
+            <h1>Marco Zero em Recifer</h1>
         </header>
         <main>
             <div class="marco_zero">
@@ -55,6 +62,17 @@
                 <img src="https://www.queroviajarmais.com/wp-content/webp-express/webp-images/uploads/2018/04/Cais-do-Sertao-em-Recife.jpg.webp" alt="Imagem">
                 <p>Moderno e interativo, o Museu Cais do Sertão coloca lado a lado a vida simples do povo sertanejo com a tecnologia.<br>
                     O resultado é um primor! Toda a riqueza do Sertão Nordestino é revelada por meio de peças, fotografias, textos e música.</p>
+            </div>
+            <div class="button">
+                <h2>Alguns pontos turística antigo do Recífe</h2>
+                <button onclick="navegarParaOutraPagina()" class="button">Ir para outra página</button>
+
+                <script>
+                    function navegarParaOutraPagina() {
+                        window.location.href = 'index.html';
+                    }
+                </script>
+                <br>
             </div>
         </main>
         <footer class="roda-pe">

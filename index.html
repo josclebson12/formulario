@@ -3,22 +3,116 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Home</title>
+        <title>Pontos turístico Antigo</title>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <style>
+            body {
+                display: block;
+                align-items: center;
+                justify-items: center;
+                margin: 0%;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .topo {
+                display: flex;
+                align-items: center;
+                justify-items: center;
+                text-align: center;
+            }
+
+            .button {
+                background-color: blueviolet;
+                color: white;
+                border: none;
+                border-radius: 12px;
+                font-size: 15px;
+                height: 35px;
+                width: 90px;
+            }
+
+            .roda-pe {
+                display: flex;
+                align-items: center;
+                justify-items: center;
+                background-color: black;
+                color: white;
+                width: 100%;
+                text-align: center;
+            }
+        </style>
     </head>
     <body>
-        <section>
-            <h1>Preencha Formulario</h1>
-            <form action="">
-                <label for="none">Nome</label>
-                <input type="texte" name="none" id="none">
-                <label for="email">E-mail</label>
-                <input type="email" id="email" name="email">
-                <label for="password">Senha</label>
-                <input type="password" id="password" name="password">
-                <label for="text">CPF</label>
-                <input type="text" id="text" name="text">
-            </form>
-        </section>
+        <main>
+            <header class="topo">
+                <button onclick="voltar()" class="button">Voltar</button>
+
+                <script>
+                    function voltar() {
+                        window.location.href = 'indexx.html'
+                    }
+                </script>
+                <h1>Pontos Turísticos do Recife Antigo</h1>
+            </header>
+            <div class="Brennand">
+                <h3>Instituto de Ricardo Brennand</h3>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Castelo_Brennand_%28Instituto_Ricardo_Brennand%29_-_Recife_-_Pernambuco_-_Brasil%282%29.jpg/800px-Castelo_Brennand_%28Instituto_Ricardo_Brennand%29_-_Recife_-_Pernambuco_-_Brasil%282%29.jpg" alt="Imagem">
+                <p>ambém conhecido como Castelo de Brennand, o Instituto Ricardo Brennand é o único ponto turístico trazido por este blog de viagem que não fica no Recife Antigo. Mas vale muito a pena o deslocamento até o local. Ele foi eleito o melhor museu da América do Sul pelo TripAdvisor.<br>
+
+                    O espaço fica em uma reserva de Mata Atlântica, mais afastada da cidade, em um bairro chamado Várzea, bem próximo à Universidade Federal de Pernambuco, a mais ou menos 14 km do centro. Logo na entrada, você será recepcionado com um conjunto de palmeiras imperiais impressionantes.<br>
+                    
+                    Uma réplica de um castelo medieval abriga exposições fixas de peças da Idade Média: móveis, tapetes, acessórios, roupas de combate, livros raros, obras de arte.<br>
+                    
+                    O destaque é para o Museu de Armas, oficialmente o Castelo São João, com uma extensa coleção de armas brancas, como espadas, canivetes e punhais, alguns até cravejados com pedras preciosas.<br>
+                    
+                    A pinacoteca abriga exposições fixas e temporárias. Gosto particularmente da coleção de armaduras de ferro das épocas medievais e das caixas de música do começo do século 20.<br>
+                    
+                    Aos finais de semana, o Instituto tem várias atividades como festivais de música, oficinas, amostras, ópera, concertos clássicos entre outras programações.<br>
+                    
+                    Vale muito a pena ir, mesmo sendo bem distante do centro. De carro, utilize o GPS, pois você terá que pegar um trecho da BR-101. Nada difícil, mas é uma região nada turística de Recife. E reserve a tarde inteira (não abre de manhã) para o espaço, assim você curte tudo com calma.</p>
+            </div>
+
+            <div class="museu">
+                <h3>Museu Cais do Sertão</h3>
+                <img src="https://www.queroviajarmais.com/wp-content/webp-express/webp-images/uploads/2018/04/Cais-do-Sertao-em-Recife.jpg.webp" alt="Imagem">
+                <p>Moderno e interativo, o Museu Cais do Sertão coloca lado a lado a vida simples do povo sertanejo com a tecnologia. O resultado é um primor! Toda a riqueza do Sertão Nordestino é revelada por meio de peças, fotografias, textos e música.<br>
+
+                    Vale muito a pena visitar esse ponto turístico do Recife e ver, ouvir e se emocionar com a sensibilidade do espaço.<br>
+                    
+                    Na minha opinião, se você só tiver tempo para visitar um desses pontos turísticos do Recife, além das praias, o lugar é esse (embora ele fique a poucos metros do Marco, Zero e do Centro de Artesanato). Então, dá para fazer tudo mesmo!<br>
+                    
+                    Entre todas as sugestões deste post, ele é o meu preferido! Dá muito orgulho do Nordeste, do povo do sertão, da arte, cultura, do modo simples de vida do homem sertanejo. Enfim, coisas do nosso Brasil que nos dá orgulho!<br>
+                    
+                    A visita começa com a projeção de um curta metragem em uma sala e depois o passeio segue pelo ‘Mundo do Sertão’, a exposição fixa. Os territórios temáticos são chamados de Ocupar, Viver, Trabalhar, Cantar, Criar, Crer e Migrar.<br>
+                    
+                    Destaque para o primeiro andar com depoimentos e peças tradicionais dos sertanejos: roupas, acessórios de trabalho e instrumentos musicais. Tem túnel, karaokê e outras formas de interagir com a cultura do sertão.<br>
+                    
+                    O Museu ocupa um antigo armazém do porto, ao lado do Centro de Artesanato de Pernambuco, que fica por sua vez, ao lado do Marco Zero. Dá para fazer tudo isso a pé, tranquilamente. Eles ficam literalmente lado a lado.</p>
+            </div>
+        </main>
+        <footer class="roda-pe">
+            <ul>
+                <li>
+                    <h3>Sobre</h3>
+                    <h3>Contato</h3>
+                    <h3>Política</h3>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <h3>Mídia</h3>
+                    <h3>Hotéis</h3>
+                    <h3>Cupons De Desconto</h3>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <h3>Destino</h3>
+                    <h3>onde Ficar</h3>
+                    <h3>Destinos Internacionais</h3>
+                </li>
+            </ul>
+        </footer>
     </body>
 </html>
